@@ -1,0 +1,16 @@
+{
+  "alpha": 0.18960864679091233,
+  "colsample_bytree": 0.7041706602804555,
+  "device": "cuda",
+  "eval_metric": "auc",
+  "grow_policy": "lossguide",
+  "lambda": 3.5378549805415065,
+  "learning_rate": 0.002516835428921531,
+  "max_depth": 2,
+  "max_leaves": 57,
+  "min_child_weight": 6.661633754256496,
+  "num_class": 1,
+  "objective": "binary:logistic",
+  "seed": 8120,
+  "tree_method": "hist"
+}

@@ -1,0 +1,2 @@
+mean_accuracy,timestamp,checkpoint_dir_name,done,training_iteration,trial_id,date,time_this_iter_s,time_total_s,pid,hostname,node_ip,time_since_restore,iterations_since_restore
+0.7751196172248804,1745988796,,False,1,fc6b8478,2025-04-30_13-53-16,0.32727479934692383,0.32727479934692383,792976,cvmi-jeyoung-System-Product-Name,192.168.0.69,0.32727479934692383,1

@@ -1,0 +1,12 @@
+Failure # 1 (occurred at 2025-04-30_13-51-29)
+[36mray::ImplicitFunc.train()[39m (pid=785822, ip=192.168.0.69, actor_id=cb791de9b8bc937a518395e601000000, repr=train_price)
+  File "/home/cvmi_jeyoung/anaconda3/envs/rapids2/lib/python3.10/site-packages/ray/tune/trainable/trainable.py", line 331, in train
+    raise skipped from exception_cause(skipped)
+  File "/home/cvmi_jeyoung/anaconda3/envs/rapids2/lib/python3.10/site-packages/ray/air/_internal/util.py", line 107, in run
+    self._ret = self._target(*self._args, **self._kwargs)
+  File "/home/cvmi_jeyoung/anaconda3/envs/rapids2/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 45, in <lambda>
+    training_func=lambda: self._trainable_func(self.config),
+  File "/home/cvmi_jeyoung/anaconda3/envs/rapids2/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 250, in _trainable_func
+    output = fn()
+  File "/tmp/ipykernel_783848/2780570650.py", line 9, in train_price
+NameError: name 'dvalid' is not defined
